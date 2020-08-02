@@ -30,7 +30,11 @@ const Details = () => {
           </div>
         </Link>
         <div
-          style={{ border: "1px solid grey", height: "150px", width: "400px" }}
+          style={{
+            border: "1px solid grey",
+            height: "150px",
+            width: "400px",
+          }}
         ></div>
         <br />
         <p style={{ fontSize: "20px" }}>Ingredients : </p>
