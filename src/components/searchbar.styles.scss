@@ -1,15 +1,12 @@
 .searchval {
   color: grey;
   position: relative;
-  left: 10px;
+  left: 1vw;
   transition: 300ms all;
   width: 210px;
   background-color: #f0f0f0;
   border: none;
 }
 .searchval:focus {
-  outline: none;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid rgba(144, 144, 144, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
