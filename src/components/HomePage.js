@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, lazy } from "react"
 import { Row, Col } from "react-bootstrap"
 import { retrieveItems } from "../api"
 import { useSearch } from "../hooks/useSearch"
