@@ -3,13 +3,15 @@
   position: relative;
   left: 10px;
   transition: 300ms all;
+  padding: 4px;
   width: 210px;
   background-color: #f0f0f0;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid rgba(144, 144, 144, 0.5);
 }
 .searchval:focus {
   outline: none;
-  padding: 5px;
+  padding: 6px;
   border-radius: 5px;
-  border: 1px solid rgba(144, 144, 144, 0.5);
+  border: 2px solid rgba(144, 144, 144, 0.5);
 }
