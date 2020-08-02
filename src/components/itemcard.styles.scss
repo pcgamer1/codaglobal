@@ -1,0 +1,22 @@
+.master {
+  .options {
+    display: none;
+    position: relative;
+    top: -28vh;
+    left: 67px;
+  }
+
+  .card-container {
+    transition: 200ms all;
+  }
+  &:hover {
+    .card-container {
+      opacity: 0.4;
+    }
+
+    .options {
+      display: flex;
+      opacity: 0.9;
+    }
+  }
+}

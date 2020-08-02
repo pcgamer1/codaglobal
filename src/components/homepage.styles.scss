@@ -1,0 +1,18 @@
+.container {
+  background-color: #f0f0f0;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.content {
+  padding: 8vh 14vw;
+}
+
+.item-container {
+  padding-top: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+}
