@@ -7,9 +7,6 @@ import { Link } from "react-router-dom"
 import "./itemcard.styles.scss"
 
 const ItemCard = (props) => {
-  const [isHovering, setIsHovering] = useState(false)
-  const [opacity, setOpacity] = useState(1)
-
   console.log(props)
   const item = props.item
 
@@ -20,7 +17,7 @@ const ItemCard = (props) => {
         style={{
           margin: "5px",
           width: "225px",
-          boxShadow: "-7px -7px 15px #ccc",
+          boxShadow: "-7px -7px 10px #ccc",
           height: "320px",
           display: "flex",
           justifyContent: "flex-end",

@@ -1,8 +1,10 @@
 .master {
+  position: relative;
+
   .options {
     display: none;
-    position: relative;
-    top: -28vh;
+    position: absolute;
+    bottom: 23vh;
     left: 67px;
   }
 
